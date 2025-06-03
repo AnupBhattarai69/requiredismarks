@@ -12,6 +12,30 @@
       margin: 0;
       padding: 0;
     }
+
+    /* Navigation Buttons */
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      background-color: #1b263b;
+      padding: 15px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #00b4d8;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav a:hover {
+      background-color: #0077b6;
+    }
+
     header {
       background-color: #1b263b;
       padding: 20px;
@@ -20,6 +44,7 @@
     header h1 {
       color: #00b4d8;
     }
+
     .section {
       padding: 20px;
       border-bottom: 1px solid #1b263b;
@@ -28,17 +53,21 @@
       align-items: flex-start;
       justify-content: space-between;
     }
+
     .section img {
       max-width: 400px;
       height: auto;
       margin-top: 20px;
     }
+
     .text {
       max-width: 600px;
     }
+
     h2 {
       color: #00b4d8;
     }
+
     ul {
       list-style: disc;
       padding-left: 20px;
@@ -46,6 +75,16 @@
   </style>
 </head>
 <body>
+
+  <!-- Navigation Buttons -->
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="nervous.html">Nervous System</a>
+    <a href="glandular.html">Glandular System</a>
+    <a href="reproductive.html">Reproductive System</a>
+    <a href="funfacts.html">Fun Facts</a>
+  </div>
+
   <header>
     <h1>Reproductive System</h1>
   </header>
@@ -82,7 +121,7 @@
       </ul>
     </div>
     <div class="image">
-      <img src="https://files07.oaiusercontent.com/file-XWdYRrJmgrFhifs33o5PAr?se=2025-06-03T13%3A25%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc06ae339-cb01-46b8-98f8-40652cac799f.png&sig=JiG9k0g%2B%2BMw2MB9rc6e7zjfGavkLJZWsn8SvIGjOYTI%3D">
+      <img src="https://files07.oaiusercontent.com/file-XWdYRrJmgrFhifs33o5PAr?se=2025-06-03T13%3A23%3A14Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc06ae339-cb01-46b8-98f8-40652cac799f.png&sig=aXFfF1NCMuOEAWCQV3lKqu23qRJ/AWvW5qEwsBnfNtY%3D">
     </div>
   </section>
 
@@ -103,5 +142,6 @@
       <img src="https://i.ytimg.com/vi/tpcRjaoojYc/maxresdefault.jpg" alt="Female Internal Reproductive System">
     </div>
   </section>
+
 </body>
 </html>
